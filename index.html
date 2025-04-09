@@ -1,0 +1,719 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhijeet Singh | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Abhijeet Singh, an Eentrepreneur" />
+    <meta name="author" content="Abhijeet Singh" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="#" class="nav-logo">Abhijeet Singh</a>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+       <!-- <li class="nav-item"><a href="#education" class="nav-link">Education</a></li> -->
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+       <!-- <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li> -->
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <button id="theme-toggle" aria-label="Toggle theme">
+      <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+      <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+    </button>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hello">Hello, my name is</div>
+            <h1>Abhijeet.</h1>
+            <h2>I build things for the web.</h2>
+            <p>I'm an Entrepreneur, Web Developer specializing in building exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products.</p>
+            <div class="cta-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+          <a href="#about" class="scroll-down" aria-label="Scroll down">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow-down">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <polyline points="19 12 12 19 5 12"></polyline>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+            <h2>About Me</h2>
+          </div>
+          <div class="about-content">
+            <div class="about-text">
+              <p>Hello! I'm Abhijeet, a Web Developer based in Bangalore, KA. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.</p>
+              <p>I graduated <!--from the University of Mysore--> with a degree in Business Management, and since then I've been honing my skills working with various companies from startups to scale-ups.</p>
+              <p>When I'm not at the computer, I'm usually rock climbing, hiking, or exploring new coffee shops in the city.</p>
+            </div>
+            <div class="about-image">
+              <div class="image-wrapper">
+                <img src="Images/Profile.png" alt="Profile Picture of Abhijeet Singh">
+                <div class="image-border"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section experience">
+        <div class="container">
+          <div class="section-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+            <h2>Experience</h2>
+          </div>
+          <div class="experience-list">
+            <div class="experience-item">
+              <div class="experience-header">
+                <div>
+                  <h3>Senior AM</h3>
+                  <p class="company">MediAssist</p>
+                </div>
+                <p class="period">2024 - Present</p>
+              </div>
+              <ul class="experience-description">
+                <li><span class="bullet">▹</span> Claims Management & Reporting: Led daily tracking and resolution of outstanding claims, managing escalations and 
+                  ensuring timely resolutions using MIS tools. Generated and shared detailed reports on account health metrics (ICR, CPC, 
+                  CPA) to stakeholders, ensuring accurate and actionable insights.</li>
+                <li><span class="bullet">▹</span> Quality Assurance & Process Improvement: Conducted regular assessments of data quality and reporting accuracy. 
+                  Delivered training on MIS systems, identified system and process challenges, and implemented data-driven solutions to 
+                  enhance operational efficiency and accuracy.</li>
+                <li><span class="bullet">▹</span> Team Leadership & Stakeholder Engagement: Managed and mentored the MIS team, conducting performance reviews 
+                  and ensuring effective data management practices. Collaborated with stakeholders, including insurers, brokers, and clients, 
+                  to deliver insights and drive continuous business process improvements.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">GraphQL</span>
+                <span class="tag">Tailwind CSS</span>
+              </div>
+            </div>
+
+            <div class="experience-item">
+              <div class="experience-header">
+                <div>
+                  <h3>Associate Operations</h3>
+                  <p class="company">Medibuddy</p>
+                </div>
+                <p class="period">2022 - 2024</p>
+              </div>
+              <ul class="experience-description">
+                <li><span class="bullet">▹</span> Conducted data cleaning and preprocessing on large datasets using SQL to prepare them for analysis.</li>
+                <li><span class="bullet">▹</span> Developed and maintained dashboards using Excel, Power BI and Tableau to monitor key performance indicators (KPIs).</li>
+                <li><span class="bullet">▹</span> Created visualizations and reports to communicate findings</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Vue.js</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">SCSS</span>
+                <span class="tag">Webpack</span>
+              </div>
+            </div>
+
+            <div class="experience-item">
+              <div class="experience-header">
+                <div>
+                  <h3>Business Communication and Support</h3>
+                  <p class="company">Meero</p>
+                </div>
+                <p class="period">2021 - 2022</p>
+              </div>
+              <ul class="experience-description">
+                <li><span class="bullet">▹</span> Photo Shoot Coordination: Coordinated photo shoot bookings for restaurant owners, liaising with food delivery companies 
+                  to facilitate marketing initiatives. Managed both inbound and outbound communication to ensure seamless scheduling.</li>
+                <li><span class="bullet">▹</span> Client Engagement: Engaged reminder calls and adeptly rescheduled photo shoots to accommodate client needs, 
+                  demonstrating flexibility and a commitment to customer satisfaction.</li>
+                <li><span class="bullet">▹</span> Customer Service Excellence: Resolved a wide array of customer inquiries through multiple channels, including calls, 
+                  emails, and live chat, ensuring prompt and effective solutions to enhance client experience.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">jQuery</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+ <!-- <section id="education" class="section education">
+        <div class="container">
+          <div class="section-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            <h2>Education</h2>
+          </div>
+          <div class="education-list">
+            <div class="education-item">
+              <div class="education-header">
+                <div>
+                  <h3>BBA in General Management</h3>
+                  <p class="institution">CSJMU</p>
+                </div>
+                <p class="period">2017 - 2020</p>
+              </div>
+              <p class="education-description">Specialized in Digital Marketing, E-Commerce, UX Strategy and Business Analytics. Graduated with honors.</p>
+              <div>
+                <h4>Key Courses:</h4>
+                <div class="tags">
+                  <span class="tag">Principles of Management & Business Communication</span>
+                  <span class="tag">Financial & Managerial Accounting</span>
+                  <span class="tag">Marketing & Consumer Behavior</span>
+                  <span class="tag">Human Resource & Entrepreneurship</span>
+                </div>
+              </div>
+            </div> -->
+
+       <!-- <div class="education-item">
+              <div class="education-header">
+                <div>
+                  <h3>BSc in Computer Science</h3>
+                  <p class="institution">State University</p>
+                </div>
+                <p class="period">2012 - 2016</p>
+              </div>
+              <p class="education-description">Focused on software engineering fundamentals and web development.</p>
+              <div>
+                <h4>Key Courses:</h4>
+                <div class="tags">
+                  <span class="tag">Data Structures & Algorithms</span>
+                  <span class="tag">Web Programming</span>
+                  <span class="tag">Database Systems</span>
+                  <span class="tag">Software Engineering</span>
+                </div>
+              </div>
+            </div> 
+
+            <div class="education-item">
+              <div class="education-header">
+                <div>
+                  <h3>Frontend Development Certification</h3>
+                  <p class="institution">Tech Academy Online</p>
+                </div>
+                <p class="period">2015</p>
+              </div>
+              <p class="education-description">Intensive 6-month bootcamp focused on modern frontend technologies.</p>
+              <div>
+                <h4>Key Courses:</h4>
+                <div class="tags">
+                  <span class="tag">JavaScript Frameworks</span>
+                  <span class="tag">Responsive Design</span>
+                  <span class="tag">Version Control</span>
+                  <span class="tag">Frontend Performance</span>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            <h2>Projects</h2>
+          </div>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="Images/Dashboard-EC_Power BI.png" alt="E-commerce Analytics Dashboard">
+              </div>
+              <div class="project-content">
+                <h3>E-commerce Analytics Dashboard</h3>
+                <p>A comprehensive dashboard for Brazilian e-commerce company called Olist Store and includes data on around 100,000 orders made from 2016 to 2018.</p>
+                <div class="tags">
+                  <span class="tag">Advanced Excel</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">PowerBI</span>
+                  <span class="tag">Python</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/abhijeetsingh04/ECommerce-Analytics" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View E-commerce Analytics Dashboard on GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                  <a href="https://medium.com/@abhijeetsingh01/e-commerce-analytics-d0bbf6a99659" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View live demo of E-commerce Analytics Dashboard">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <img src="Images/Dashboard-BA_Power BI.png" alt="Weather App">
+              </div>
+              <div class="project-content">
+                <h3>Bank Analytics Dashboard</h3>
+                <p>Analyze the loan given by a financial institution to different customers of varied grades and sub-grade levels.</p>
+                <div class="tags">
+                  <span class="tag">Advanced Excel</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">PowerBI</span>
+                  <span class="tag">Python</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/abhijeetsingh04/Bank-Analytics" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Bank Analytics Dashboard on GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                  <a href="https://medium.com/@abhijeetsingh01/bank-analytics-ec270e08eda0" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View live demo of Bank Analytics Dashboard">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+       <!-- <div class="project-card">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" alt="Task Management System">
+              </div>
+              <div class="project-content">
+                <h3>Task Management System</h3>
+                <p>A Kanban-style task management application with drag and drop interface, task priorities, and team collaboration features.</p>
+                <div class="tags">
+                  <span class="tag">Vue.js</span>
+                  <span class="tag">Firebase</span>
+                  <span class="tag">Vuex</span>
+                  <span class="tag">Tailwind CSS</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View Task Management System on GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                  <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View live demo of Task Management System">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="view-more-container">
+            <a href="https://github.com/abhijeetsingh04" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              View More on GitHub
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <div class="section-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="4" y1="21" x2="4" y2="14"></line>
+              <line x1="4" y1="10" x2="4" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12" y2="3"></line>
+              <line x1="20" y1="21" x2="20" y2="16"></line>
+              <line x1="20" y1="12" x2="20" y2="3"></line>
+              <line x1="1" y1="14" x2="7" y2="14"></line>
+              <line x1="9" y1="8" x2="15" y2="8"></line>
+              <line x1="17" y1="16" x2="23" y2="16"></line>
+            </svg>
+            <h2>Skills</h2>
+          </div>
+
+          <div class="skills-category">
+            <h3>Frontend</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                <span>HTML5</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                <span>CSS3</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                <span>React</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                <span>TypeScript</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS">
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" alt="Vite">
+                <span>Vite</span>
+              </div>
+              <div class="skill-item">
+                <img src="Images/Logo/Shadcn-ui.png" alt="ShadCN-UI">
+                <span>ShadCN-UI</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js">
+                <span>Vue.js</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Backend</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                <span>Java</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                <span>Node.js</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express">
+                <span>Express</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                <span>MySQL</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase">
+                <span>Firebase</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h3>Tools & Others</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <img src="Images/Logo/Office.png" alt="Office">
+                <span>Office</span>
+              </div>
+              <div class="skill-item">
+                <img src="Images/Logo/PowerBI.png" alt="PowerBI">
+                <span>PowerBI</span>
+              </div>
+              <div class="skill-item">
+                <img src="Images/Logo/Tableau.png" alt="Tableau">
+                <span>Tableau</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                <span>VS Code</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                <span>Git</span>
+              </div>
+         <!-- <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                <span>Figma</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" alt="Webpack">
+                <span>Webpack</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest">
+                <span>Jest</span>
+              </div>
+              <div class="skill-item">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                <span>Docker</span>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog Section -->
+ <!-- <section id="blog" class="section blog">
+        <div class="container">
+          <div class="section-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+            </svg>
+            <h2>Blog</h2>
+          </div>
+
+          <div class="blog-grid">
+            <a href="https://medium.com" target="_blank" rel="noopener noreferrer" class="blog-card">
+              <div class="blog-image">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Blog post">
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span>December 25, 2024</span>
+                  <span>7 min read</span>
+                </div>
+                <h3>The Future of Frontend Development: 2023 and Beyond</h3>
+                <p>Explore the newest trends, tools, and technologies shaping the future of frontend development, including WASM, CSS Container Queries, and more.</p>
+                <div class="read-more">
+                  Read More
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://dev.to" target="_blank" rel="noopener noreferrer" class="blog-card">
+              <div class="blog-image">
+                <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2031&q=80" alt="Blog post">
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span>July 22, 2024</span>
+                  <span>10 min read</span>
+                </div>
+                <h3>Optimizing React Applications for Performance</h3>
+                <p>Learn advanced techniques to optimize your React applications, from code splitting to memoization and virtualization for handling large data sets.</p>
+                <div class="read-more">
+                  Read More
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://hashnode.com" target="_blank" rel="noopener noreferrer" class="blog-card">
+              <div class="blog-image">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Blog post">
+              </div>
+              <div class="blog-content">
+                <div class="blog-meta">
+                  <span>June 5, 2024</span>
+                  <span>12 min read</span>
+                </div>
+                <h3>Creating Accessible Web Applications: A Comprehensive Guide</h3>
+                <p>Discover how to build truly inclusive web applications with this in-depth guide covering ARIA attributes, keyboard navigation, and testing methodologies.</p>
+                <div class="read-more">
+                  Read More
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="view-more-container">
+            <a href="https://abhijeetsingh01.medium.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              View All Articles
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <h2>Contact</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <p>I'm currently open to freelance opportunities and collaborations. If you have a project that you want to get started, think you need my help with something, or just want to say hello, feel free to contact me.</p>
+
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                  <div>
+                    <h3>Email</h3>
+                    <a href="mailto:abhijeetsingh0424@gmail.com">abhijeetsingh0424@gmail.com</a>
+                  </div>
+                </div>
+
+           <!-- <div class="contact-method">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                  <div>
+                    <h3>Phone</h3>
+                    <a href="tel:+12345678901">+91 9519887452</a>
+                  </div> 
+                </div> -->
+
+                <div class="contact-method">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <div>
+                    <h3>Location</h3>
+                    <p>Bengaluru, KA</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </a>
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" aria-label="Dribbble Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3>Send Me a Message</h3>
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" placeholder="Your email" required>
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Abhhijeet Singh. All Rights Reserved.</p>
+          <p>Designed with ❤️ by Abhijeet Singh</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
