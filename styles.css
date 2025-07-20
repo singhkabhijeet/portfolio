@@ -177,7 +177,8 @@ ul {
   transition: color 0.3s;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   color: hsl(var(--primary));
 }
 
@@ -192,7 +193,8 @@ ul {
   transition: width 0.3s;
 }
 
-.nav-link:hover::after, .nav-link.active::after {
+.nav-link:hover::after,
+.nav-link.active::after {
   width: 100%;
 }
 
@@ -249,7 +251,7 @@ ul {
 }
 
 .hero-content {
-  max-width: 32rem;
+  max-width: 48rem; /* Increased from 32rem for better single-line support */
   animation: fadeIn 0.5s ease-out forwards;
   animation-delay: 0.2s;
   opacity: 0;
@@ -267,10 +269,25 @@ ul {
 }
 
 .hero h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 1.75rem;        /* Reduced to fit one line */
+  font-weight: 600;
   margin-bottom: 1.5rem;
   color: hsl(var(--muted-foreground));
+  white-space: nowrap;       /* Prevent wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 1.25rem;
+    white-space: normal; /* Allow wrapping on smaller screens */
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
 }
 
 .hero p {
